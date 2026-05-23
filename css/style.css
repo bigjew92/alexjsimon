@@ -222,6 +222,19 @@ a:hover {
 .contact-item a:hover {
     color: var(--accent-cyan);
 }
+.contact-item.sensitive a,
+.contact-item.sensitive span {
+    filter: blur(4.5px);
+    opacity: 0.4;
+    user-select: none;
+    transition: filter 0.2s ease, opacity 0.2s ease;
+}
+.contact-item.sensitive:hover a,
+.contact-item.sensitive:hover span {
+    filter: none;
+    opacity: 1;
+    user-select: auto;
+}
 
 .btn {
     font-family: var(--font-sans);

@@ -73,7 +73,12 @@ function initHeroTerminal() {
     <span class="val-highlight">"Kubernetes"</span>, <span class="val-highlight">"Terraform"</span>,
     <span class="val-highlight">"GitOps"</span>, <span class="val-highlight">"CDN (Fastly/Akamai)"</span>
   ],
-  <span class="key-highlight">"dog"</span>: <span class="val-highlight">"Happy"</span>
+  <span class="key-highlight">"interests"</span>: [
+    <span class="val-highlight">"Movies"</span>,
+    <span class="val-highlight">"Star Wars"</span>,
+    <span class="val-highlight">"3D Printing"</span>,
+    <span class="val-highlight">"Traveling"</span>
+  ]
 }`;
 
     function showTerminalOutput() {

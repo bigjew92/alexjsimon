@@ -1,91 +1,352 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Alex Simon</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Custom CSS -->
-	<link rel="stylesheet" type="text/css" href="./css/custom.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Simon - Senior Cloud DevOps Engineer Portfolio & Interactive Resume. Clean cloud infrastructure, Kubernetes, Terraform, GitOps, and Edge CDN solutions.">
+    <title>Alex Simon | Senior Cloud DevOps Engineer</title>
+    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-
-
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="./index.html">Alex Simon</a>
-			<ul class="nav navbar-nav pull-right text-right">
-				<li class="active">
-					<a href="./index.html">Home</a>
-				</li>
-				<li>
-					<a href="./Alex_Simon_Resume.pdf" download>Resume</a>
-				</li>
-				<li>
-					<a href="#myModal" data-toggle="modal" ">Contact</a>
-				</li>
-			</ul>
-			<ul class="nav navbar-nav pull-left text-left">
-				<li>
-					<a href="https://www.facebook.com/simonalexjoseph/"><img src="./img/fb.png" class="img-responsive" alt="facebook icon"></a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/alexjosephsimon/"><img src="./img/linked.png" class="img-responsive" alt="linkedin icon"></a>
-				</li>
-				<li>
-					<a href="https://twitter.com/bigjew92"><img src="./img/twitter.png" class="img-responsive" alt="twitter icon"></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+    <div class="site-container">
+        
+        <!-- Interactive Card -->
+        <main class="resume-card">
+            
+            <!-- Left Sidebar (Profile) -->
+            <section class="card-sidebar">
+                <div class="sidebar-top">
+                    <div class="avatar">AS</div>
+                    <h1 class="name">Alex Simon</h1>
+                    <h2 class="title">Senior Cloud DevOps Engineer</h2>
+                    
+                    <div class="status-badge">
+                        <span class="pulse-dot green"></span>
+                        <span>Available for challenges</span>
+                    </div>
+                </div>
 
-	<div class="modal fade" id="myModal" role="dialog">
-		<div class="modal-dialog">
+                <div class="sidebar-contact">
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <a href="mailto:yaimalex@gmail.com">yaimalex@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                        <a href="tel:661-877-8255">661-877-8255</a>
+                    </div>
+                    <div class="contact-item">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                        <span>Los Angeles, CA</span>
+                    </div>
+                </div>
 
-			<div class="modal-content">
-				<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">Contact</h4>
-				</div>
-				<div class="modal-body">
-						<h3>Please contact me at yaimalex@gmail.com!</h3>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-			</div>
+                <div class="sidebar-footer">
+                    <a href="Alex_Simon_Resume.pdf" download class="btn btn-primary btn-full">
+                        <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>
+                        Download PDF
+                    </a>
+                </div>
+            </section>
 
-		</div>
-	</div>
+            <!-- Right Content Area -->
+            <section class="card-content">
+                
+                <!-- Tab Menu Header -->
+                <nav class="content-tabs">
+                    <button class="tab-btn active" data-tab="experience">Experience</button>
+                    <button class="tab-btn" data-tab="skills">Skills</button>
+                    <button class="tab-btn" data-tab="pipeline">CD Pipeline</button>
+                    <button class="tab-btn" data-tab="info">Terminal</button>
+                </nav>
 
-	<div class="container">
-  		<div class="jumbotron">
-  		<img src="favicon.ico">    
-    	</div>
+                <!-- Scrollable panels -->
+                <div class="panel-container">
+                    
+                    <!-- TAB 1: Experience -->
+                    <div class="content-panel active" id="panel-experience">
+                        <div class="timeline">
+                            
+                            <!-- Job 1: Fox -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2026 - Present</span>
+                                    <span class="timeline-badge">Latest</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Senior Cloud DevOps Engineer <span class="company">@ Fox</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Working with application teams to streamline deployments to Kubernetes</li>
+                                        <li>Implementing best practices with GitOps</li>
+                                        <li>Configuring CDN using Fastly and Akamai</li>
+                                        <li>Providing support for World Cup 2026 ensuring applications have DR plans</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>Fastly</span><span>Akamai</span><span>GitOps</span><span>Kubernetes</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 2: Activision -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2023 - 2026</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Senior Cloud DevOps Engineer <span class="company">@ Activision</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Returned to old team to build out new automation tools using Go and GitOps</li>
+                                        <li>Helping facilitate a GCP to Azure migration</li>
+                                        <li>Develop templates for Helm and Terraform modules</li>
+                                        <li>Develop compositions for Crossplane to deploy infrastructure alongside applications</li>
+                                        <li>Working with application teams to streamline deployments to Kubernetes</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>Go</span><span>GitOps</span><span>Crossplane</span><span>Helm</span><span>Terraform</span><span>GCP</span><span>Azure</span><span>Kubernetes</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 3: Electronic Arts -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2022 - 2023</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Senior DevOps Engineer <span class="company">@ Electronic Arts</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Member of a new team building infrastructure for unannounced product</li>
+                                        <li>Helm library charts for developers to be able to quickly deploy apps</li>
+                                        <li>Managing deployments to Kubernetes via ArgoCD and GitLab CI</li>
+                                        <li>Develop CI/CD pipeline that fits the needs of developers</li>
+                                        <li>Explore all possible solutions for new applications</li>
+                                        <li>Spin up Infrastructure using Terraform</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>ArgoCD</span><span>GitLab CI</span><span>Helm</span><span>Terraform</span><span>Kubernetes</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 4: Activision -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2020 - 2022</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Cloud DevOps Engineer <span class="company">@ Activision</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Critical member of the Cloud Infrastructure Team</li>
+                                        <li>Migration of various internal and external facing apps from AWS to GCP</li>
+                                        <li>Designed cloud ecosystems to meet Activision's Global Security Policies</li>
+                                        <li>Consulting with internal app-dev teams to move to a true CI/CD pipeline</li>
+                                        <li>Managed ArgoCD and developed Helm templates for teams to easily deploy</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>AWS</span><span>GCP</span><span>ArgoCD</span><span>Helm</span><span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 5: Disney -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2018 - 2020</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Media System Engineer <span class="company">@ Walt Disney Studios</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Red Hat OpenShift Container Service – Migration from Monolithic Applications</li>
+                                        <li>Re-Architecting of CI/CD Pipeline for critical Disney internal applications</li>
+                                        <li>Aspera On Cloud – Management of accelerated high bandwidth data transfers</li>
+                                        <li>DevOps for Cloud Providers – AWS and MSFT Azure</li>
+                                        <li>Terraform – Infrastructure as Code for AWS, Azure, and vSphere</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>OpenShift</span><span>Aspera</span><span>AWS</span><span>Azure</span><span>Terraform</span><span>vSphere</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 6: Conversant Media -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2017 - 2018</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Systems Support Specialist <span class="company">@ Conversant Media</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Meet defined Help Desk SLAs for ticket resolutions</li>
+                                        <li>IT support for users in Westlake Village and remote offices</li>
+                                        <li>Troubleshoot unified communications: PTSN, VOIP, Video (Skype/Polycom)</li>
+                                        <li>Inventory management, tracking, and cycling</li>
+                                        <li>Contribute FAQs or documentation, monthly patching audits, etc.</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>Helpdesk</span><span>VOIP</span><span>Windows/Mac OS</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Job 7: Princess Cruises -->
+                            <div class="timeline-item">
+                                <div class="timeline-meta">
+                                    <span class="timeline-date">2016 - 2017</span>
+                                </div>
+                                <div class="timeline-content">
+                                    <h3 class="job-title">Systems Software Administrator <span class="company">@ Princess Cruises</span></h3>
+                                    <ul class="job-bullets">
+                                        <li>Provide back-end support for Office 365 environment</li>
+                                        <li>Worked with Lotus Domino managing users and groups</li>
+                                        <li>Update SSL certificates for servers hosting internal applications on-prem and on ships</li>
+                                    </ul>
+                                    <div class="job-tags">
+                                        <span>Office 365</span><span>Domino</span><span>SSL/TLS</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- TAB 2: Skills -->
+                    <div class="content-panel" id="panel-skills">
+                        <div class="skills-layout">
+                            
+                            <div class="skills-block">
+                                <h3>Cloud Platforms & Orchestration</h3>
+                                <div class="tag-cloud">
+                                    <span>AWS</span><span>GCP</span><span>Azure</span><span>Kubernetes</span><span>Docker</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-block">
+                                <h3>Infrastructure as Code & GitOps</h3>
+                                <div class="tag-cloud">
+                                    <span>Terraform</span><span>Crossplane</span><span>ArgoCD</span><span>Helm</span><span>Helmfile</span><span>YAML</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-block">
+                                <h3>CI/CD Pipelines & CDN</h3>
+                                <div class="tag-cloud">
+                                    <span>GitHub Actions</span><span>GitLab CI</span><span>Jenkins</span><span>Fastly</span><span>Akamai</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-block">
+                                <h3>Observability & Monitoring</h3>
+                                <div class="tag-cloud">
+                                    <span>Grafana</span><span>Prometheus</span><span>Loki</span><span>Datadog</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-block">
+                                <h3>Development & Databases</h3>
+                                <div class="tag-cloud">
+                                    <span>Go (Golang)</span><span>Python</span><span>BASH</span><span>PostgreSQL</span><span>Cassandra</span><span>Kafka</span><span>MongoDB</span>
+                                </div>
+                            </div>
+
+                            <div class="skills-block education-block">
+                                <h3>Education</h3>
+                                <div class="edu-card">
+                                    <h4>California State University, Northridge</h4>
+                                    <p>Bachelor of Science in Computer Information Technology</p>
+                                    <p class="minor">Minor: Electronic Media Management</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- TAB 3: Pipeline Simulator -->
+                    <div class="content-panel" id="panel-pipeline">
+                        <div class="pipeline-layout">
+                            <div class="pipeline-top">
+                                <p class="desc">Verify the deployment configuration of this site via a mock GitOps execution loop.</p>
+                                <button class="btn btn-accent" id="run-pipeline-btn">
+                                    <svg viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+                                    Run Deploy
+                                </button>
+                            </div>
+
+                            <div class="pipeline-track">
+                                <div class="flow-step" id="stage-lint">
+                                    <div class="step-dot"><span class="spinner"></span></div>
+                                    <span class="step-label">Lint</span>
+                                </div>
+                                <div class="flow-line" id="connector-1"></div>
+                                <div class="flow-step" id="stage-build">
+                                    <div class="step-dot"><span class="spinner"></span></div>
+                                    <span class="step-label">Build</span>
+                                </div>
+                                <div class="flow-line" id="connector-2"></div>
+                                <div class="flow-step" id="stage-test">
+                                    <div class="step-dot"><span class="spinner"></span></div>
+                                    <span class="step-label">Test</span>
+                                </div>
+                                <div class="flow-line" id="connector-3"></div>
+                                <div class="flow-step" id="stage-deploy">
+                                    <div class="step-dot"><span class="spinner"></span></div>
+                                    <span class="step-label">ArgoCD</span>
+                                </div>
+                            </div>
+
+                            <div class="console-box">
+                                <div class="console-header">Console Logs</div>
+                                <div class="console-body" id="pipeline-logs">
+                                    <span class="log-line system">[SYSTEM] Deploy simulator initialized. Press "Run Deploy".</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TAB 4: Terminal -->
+                    <div class="content-panel" id="panel-info">
+                        <div class="terminal-layout">
+                            <div class="terminal-header">
+                                <div class="circles"><span></span><span></span><span></span></div>
+                                <span class="term-title">bash - info.json</span>
+                            </div>
+                            <div class="terminal-body" id="hero-terminal-body">
+                                <div class="terminal-line">
+                                    <span class="prompt">alex@simon-dev:~$</span> <span class="typed-cmd">curl -s alexjsimon.com/info</span>
+                                </div>
+                                <div class="terminal-output" id="hero-terminal-output">
+                                    <!-- Populated on load -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+        
+        <!-- Footer info -->
+        <footer class="footer-note">
+            &copy; 2026 Alex Simon. Built with clean HTML/CSS/JS. Set up for serverless GitHub Pages.
+        </footer>
     </div>
 
-    <div class="container">
-    	<div class="row">
-    		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    			<h3>About</h3>
-    			<p>I am a 25 year old who lives with his dog. I work full time and enjoy the outdoors. I am in to anything tech related and love to tinker. I travel a lot and enjoy seeing new and interesting places. I have recently started to get my web skills up and learn new programming languages. I made this website as a project and am currently hosting it on a raspberry pi.</p>
-    		</div>
-    		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-    			<h3>Interests</h3>
-    			<p>I love Star Wars and collect just about anything I can get my hands on. I like camping and hiking and going to the beach. I also like to relax at home just watching TV. I enjoy playing video games online or board games IRL with friends. I really want to get into making websites and coding different projects. If you want to know more, click to download my resume or contact me.</p>
-    		</div>
-    	</div>
-    </div>
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">&copy; Alex Simon 2018</span>
-      </div>
-    </footer>
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Web background effects -->
+    <div class="bg-gradient-orb"></div>
+    <div class="grid-overlay"></div>
+
+    <!-- Scripts -->
+    <script src="js/pipeline.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
